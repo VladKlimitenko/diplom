@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Контакты</title>
+    <link rel="icon" href="/logo.tif" type="image/icon type" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="/contact us/script.js"></script>
+
+    <body>
+        <img src="full logo.jpg" alt="logo" width="240" length "280">
+        <div class="wrapper">
+            <h2>Контакты</h2>
+            <div id="error_message">
+
+
+            </div>
+            <?php require '/insert.php';
+
+            ?>
+
+            <form action="insert.php" method="post" id="myform" onsubmit="return validate();" required>
+                <div class="input_field">
+                    <input type="text" class="input " placeholder="Имя" id="name" name="name" required>
+                </div>
+                <div class="input_field">
+                    <input type="email" class="input" placeholder="Адрес электронной почты" id="email" name="email" required>
+                </div>
+                <div class="input_field">
+                    <input type="phone" class="input" placeholder="Номер телефона" id="phone" name="phone" required>
+                </div>
+                <div class="input_field">
+                    <input type="text" class="input" placeholder="Тема" id="subject" name="subject" required>
+                </div>
+                <div class="input_field">
+                    <textarea placeholder="Сообщение" id="message" name="message"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="slider"></div>
+        <br>
+        <br>
+        <br>
+        <div class="footer">
+            <div class="rights">© Copyright 2022</div>
+            <div class="wrap">
+                <ul>
+                    <li class="facebook"><a href="https://en-gb.facebook.com/login/"><i class="fa fa-facebook fa-1.9x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/login"><i class="fa fa-twitter fa-1.9x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram fa-1.9x" aria-hidden="true"></i></a></li>
+                    <li class="envelope"><a href="https://mail.google.com/mail/"><i class="fa fa-envelope fa-1.9x" aria-hidden="true"></i></a></li>
+                    <li class="whatsapp"><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-1.9x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="boxes">
+            <div id="leftbox">
+                <h2> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Адрес &nbsp <i class="fa fa-map-marker fa-1.9x"></i><br></h2>
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Посетите нас:<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp улица Маршала Жукова,26, Оренбург, Россия
+                <br>
+                <br>
+                <br>
+            </div>
+            <div id="middlebox">
+                <h2>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Телефон &nbsp <i class="fa fa-phone"></i><br></h2>
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Позвоните нам 8(3532) 66-55-00 <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp для вопросов или общей информации.<br>
+                <br>
+                <br>
+            </div>
+            <div id="rightbox">
+                <h2>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Карьера &nbsp <i class="fa fa-envelope-o"></i><br> </h2>
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Пожалуйста, присылайте резюме, сопроводительное письмо и примеры работ на:<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ampir-orenburg@mail.ru
+            </div>
+        </div>
+             <p> <iframe src="https://yandex.ru/map-widget/v1/-/CCUVnLchgB" width="580" height="400" frameborder="1" style="border:0;margin-left:750px;margin-top:-500px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- инсталляции для примера -->
+        <style type="text/css">
+            table.tableizer-table {
+                font-size: 12px;
+                border: 1px solid #CCC; 
+                font-family: Arial, Helvetica, sans-serif;
+            } 
+            .tableizer-table td {
+                padding: 4px;
+                margin: 3px;
+                border: 1px solid #CCC;
+            }
+            .tableizer-table th {
+                background-color: #104E8B; 
+                color: #FFF;
+                font-weight: bold;
+            }
+        </style>
+        <table class="tableizer-table">
+        <thead><tr class="tableizer-firstrow"><th>Наименование товара</th><th>Артикул</th><th>Штрих-код</th><th>Ссылка на изображения</th><th>Ссылка на изображение в изометрии</th><th>Ссылка на инструкции и схемы</th><th>Ширина, см</th><th>Материал*</th><th>Монтажная высота, см</th><th>Монтажная глубина, см</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek Standart 51 INS-0000001</td><td>INS-0000001</td><td>4660043203699</td><td>https://disk.yandex.ru/i/0pFedrXXJkt5Iw</td><td>https://disk.yandex.ru/i/vIAdkIP3DUr5Pg</td><td>https://disk.yandex.ru/i/E476_klIXR1a1w</td><td>51</td><td>сталь, пластик</td><td>113</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek Easy Fix 51 INS-0000009</td><td>INS-0000009</td><td>4660043203811</td><td>https://disk.yandex.ru/i/jKAMiX97gYcWmQ</td><td>https://disk.yandex.ru/i/ndyGkoUSRZNLxg</td><td>https://disk.yandex.ru/i/balxAnBJa9CUEw</td><td>51</td><td>сталь, пластик</td><td>113</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek Standart 41 INS-0000011</td><td>INS-0000011</td><td>4660043204870</td><td>https://disk.yandex.ru/i/HlTv-Z-ZvvN9JQ</td><td>https://disk.yandex.ru/i/ZeMwxgF1nqUYuA</td><td>https://disk.yandex.ru/i/wWRouKdon6YeaQ</td><td>41</td><td>сталь, пластик</td><td>113</td><td>11</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek Easy Fix 50 INS-0000010</td><td>INS-0000010</td><td>4660043204863</td><td>https://disk.yandex.ru/i/HQvvDu2PSl7bGw</td><td>https://disk.yandex.ru/i/W_WGdKrcP9UbBw</td><td>https://disk.yandex.ru/i/f91UJZEInx7TPQ</td><td>50</td><td>сталь, пластик</td><td>113</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek Standart 50 INS-0000012</td><td>INS-0000012</td><td>4660043204887</td><td>https://disk.yandex.ru/i/yDweesNgrw3mVQ</td><td>https://disk.yandex.ru/i/hBOK2t6xSVu6Og</td><td>https://disk.yandex.ru/i/JbFuf9jWStlhuQ</td><td>50</td><td>сталь, пластик</td><td>113</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного унитаза Aquatek  Promo 47 INS-0000013</td><td>INS-0000013</td><td>4660043204962</td><td>https://disk.yandex.ru/i/JCkowTSWDUeekg</td><td>https://disk.yandex.ru/i/TzbW5rUvDARYqA</td><td>https://disk.yandex.ru/i/nlqSY__3_miswQ</td><td>47</td><td>сталь, пластик</td><td>113</td><td>11,5</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Инсталляция для подвесного биде Aquatek Standart INSB-0000001</td><td>INSB-0000001</td><td>4660043204672</td><td>https://disk.yandex.ru/i/F74kBpPdpJ73dw</td><td>https://disk.yandex.ru/i/nrjK_N-DB0yNuQ</td><td>https://disk.yandex.ru/i/N350RQurzRd9rg</td><td>50</td><td>сталь</td><td>113</td><td>9</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
+        </tbody></table>
+    </body>
+</html>
